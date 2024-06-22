@@ -1,0 +1,20 @@
+[package]
+name = "himanager-rs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "himanager-rs"
+crate-type = ["cdylib"]
+
+
+[dependencies]
+forust = "0.1.0"
+hyperjson = "0.2.4"
+linfa = "0.7.0"
+polars = "0.40.0"
+
+[dependencies.pyo3]
+version = '0.21.2'
+
+features = ["extenstion-module"]
