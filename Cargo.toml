@@ -1,10 +1,10 @@
 [package]
-name = "himanager-rs"
+name = "himanager_rs"
 version = "0.1.0"
 edition = "2021"
 
 [lib]
-name = "himanager-rs"
+name = "himanager_rs"
 crate-type = ["cdylib"]
 
 
@@ -16,5 +16,3 @@ polars = "0.40.0"
 
 [dependencies.pyo3]
 version = '0.21.2'
-
-features = ["extenstion-module"]
